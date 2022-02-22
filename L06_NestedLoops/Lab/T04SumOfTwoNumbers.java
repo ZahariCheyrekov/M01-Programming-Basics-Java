@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class T04SumOfTwoNumbers {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+      
         int startInterval = Integer.parseInt(scanner.nextLine());
         int endInterval = Integer.parseInt(scanner.nextLine());
         int magicNumber = Integer.parseInt(scanner.nextLine());
