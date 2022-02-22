@@ -24,6 +24,7 @@ public class T04SumOfTwoNumbers {
                     break;
                 }
             }
+          
             if (hasFound) {
                 break;
             }
