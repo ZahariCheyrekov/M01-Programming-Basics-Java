@@ -20,6 +20,7 @@ public class T05Traveling {
           
             System.out.printf("Going to %s!%n", input);
             sumCollected = 0;
+            
             input = scanner.nextLine();
         }
     }
