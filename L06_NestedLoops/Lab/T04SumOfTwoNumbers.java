@@ -29,6 +29,7 @@ public class T04SumOfTwoNumbers {
                 break;
             }
         }
+    
         if (!hasFound) {
             System.out.printf("%d combinations - neither equals %d", numberOfCombinations, magicNumber);
         }
