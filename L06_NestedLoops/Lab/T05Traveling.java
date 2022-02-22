@@ -17,6 +17,7 @@ public class T05Traveling {
                 double money = Double.parseDouble(scanner.nextLine());
                 sumCollected = sumCollected + money;
             }
+          
             System.out.printf("Going to %s!%n", input);
             sumCollected = 0;
             input = scanner.nextLine();
