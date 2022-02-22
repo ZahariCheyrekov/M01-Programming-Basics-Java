@@ -19,10 +19,12 @@ public class T07CinemaTickets {
             String type;
            
             while (movieTickets < freeSeats && !"End".equals(type = scanner.nextLine())) {
+              
                 if (type.equals("student")) {
                     studentsTickets++;
                     totalTickets++;
                     movieTickets++;
+                
                 } else if (type.equals("standard")) {
                     standardTickets++;
                     totalTickets++;
