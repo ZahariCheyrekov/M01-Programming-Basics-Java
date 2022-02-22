@@ -19,6 +19,7 @@ public class T04SumOfTwoNumbers {
 
                 if (y + x == magicNumber) {
                     hasFound = true;
+               
                     System.out.printf("Combination N:%d (%d + %d = %d)", numberOfCombinations, x, y, magicNumber);
                     break;
                 }
