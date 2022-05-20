@@ -5,5 +5,5 @@ public class T01HelloSoftUni {
 
         System.out.println("Hello SoftUni");
     }
-}
+} 
 
