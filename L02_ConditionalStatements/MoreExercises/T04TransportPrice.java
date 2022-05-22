@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class T04TransportPrice {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+      
+	Scanner scanner = new Scanner(System.in);
         int numberOfKilometers = Integer.parseInt(scanner.nextLine());
         String dayNight = scanner.nextLine();
 
