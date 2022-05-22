@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class T07FlowerShop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int mon = Integer.parseInt(scanner.nextLine());
+     
+	int mon = Integer.parseInt(scanner.nextLine());
         int zum = Integer.parseInt(scanner.nextLine());
         int roses = Integer.parseInt(scanner.nextLine());
         int cactus = Integer.parseInt(scanner.nextLine());
