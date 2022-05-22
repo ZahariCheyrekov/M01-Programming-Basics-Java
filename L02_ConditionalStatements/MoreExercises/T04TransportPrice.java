@@ -13,7 +13,8 @@ public class T04TransportPrice {
         double taxiNight = 0.90;
         double busTax = 0.09;
         double trainTax = 0.06;
-        double totalTaxiDay = taxiPriceStart + taxiDay * numberOfKilometers;
+        
+	double totalTaxiDay = taxiPriceStart + taxiDay * numberOfKilometers;
         double totalTaxiNight = taxiPriceStart + taxiNight * numberOfKilometers;
         double totalBusPrice = numberOfKilometers * busTax;
         double totalTrainTax = numberOfKilometers * trainTax;
